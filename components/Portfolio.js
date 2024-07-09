@@ -18,8 +18,8 @@ export default function Portfolio() {
         
 
           </div>
-          <div className="divButton"><a href="https://github.com/samersol/ImageRecognition" target="_blank" className="button">Source Code</a>
-          <a href="https://kunterbuntwebsite-samersols-projects.vercel.app/" target="_blank" className="button">Show Website</a>
+          <div className="divButton"><a href="https://github.com/samersol/ImageRecognition" target="_blank" rel="noreferrer" className="button">Source Code</a>
+          <a href="https://kunterbuntwebsite-samersols-projects.vercel.app/" target="_blank" rel="noreferrer" className="button">Show Website</a>
           </div>
           
 
@@ -43,7 +43,7 @@ export default function Portfolio() {
           <p className="box">TypeScript</p>
 
           </div>
-          <div className="divButton"><a href="https://github.com/samersol/TechCart-EcommerceWebsite" target="_blank" className="button">Source Code</a>
+          <div className="divButton"><a href="https://github.com/samersol/TechCart-EcommerceWebsite" target="_blank" rel="noreferrer" className="button">Source Code</a>
           </div>
 
 		</div>
@@ -68,7 +68,7 @@ export default function Portfolio() {
           <p className="box">CSS</p>
 
           </div>
-          <div className="divButton"><a href="https://github.com/samersol/ImageRecognition" target="_blank" className="button">Source Code</a>
+          <div className="divButton"><a href="https://github.com/samersol/ImageRecognition" target="_blank" rel="noreferrer" className="button">Source Code</a>
           </div>
 
 		</div>
@@ -91,7 +91,7 @@ export default function Portfolio() {
           <p className="box">CSS</p>
 
           </div>
-          <div className="divButton"><a href="https://github.com/samersol/BookingApp" target="_blank" className="button">Source Code</a>
+          <div className="divButton"><a href="https://github.com/samersol/BookingApp" target="_blank" rel="noreferrer" className="button">Source Code</a>
           </div>
 
 		</div>

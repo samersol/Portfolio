@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header className="navBox">
-      <div className="imgLogo">      <img src="/img/logo.png" alt="logo"/>
+      <div className="imgLogo">     <a href="#intro"> <img src="/img/logo.png" alt="logo"/></a> 
       </div>
       <nav>
         <div className="navAnimation">

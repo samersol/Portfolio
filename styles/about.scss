@@ -1,0 +1,38 @@
+section#about{
+  background-color: #31333B;
+  box-shadow: inset 0 10px 10px rgba(0,0,0,.2);
+  padding:10px 0;
+  padding-left: 20px;
+  line-height:2.2rem;
+  font-size:1.8rem;
+  font-weight: 200;
+  text-align: justify;
+  text-justify: inter-word;
+  }
+
+.about-container{
+  opacity:0;
+  right: -60px;
+
+
+}
+.line{
+  min-height: 2px;
+          width:200px;
+          background-color:#1fd2cc;
+          flex-grow: 1;
+          margin-left: 1px;
+          margin-top: 5px;
+          margin-bottom: 30px;
+          transition: all 0.5s ease-in-out;
+          max-height: 0;
+}
+
+
+.about-container.visible{
+  opacity:1;
+  right: 0;
+  padding:200px 0;
+  transition: all .6s linear;
+  
+}

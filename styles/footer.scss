@@ -1,0 +1,40 @@
+footer{
+  background: #31333B;
+  div.social{
+    display:flex;
+    svg{
+      height:25px;
+      fill:#fff;
+      transition: all 0.3s ease-in-out;
+    }
+    svg:hover{
+      fill:rgba(22, 201, 237, 1);
+      transform: translateY(-3px);
+      height: 27px;
+
+    }
+    div.links{
+      padding: 0 50px;
+      a{
+        position: relative;
+        top: -10px;
+        padding: 0 6px;
+      }
+      
+    }
+    .line{
+      flex-grow: 1;
+      border-top: 2px solid $gold;
+    }
+    
+  }
+  h2{
+    margin-bottom: 0;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 20px;
+    color: $gold;
+    font-weight:250;
+    font-size:1.2rem;
+  }
+}

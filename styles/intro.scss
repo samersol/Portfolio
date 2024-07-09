@@ -1,0 +1,182 @@
+section#intro{
+  max-width: 780px;
+  margin:0 auto;
+  align-items: center;
+  justify-content:space-between;
+  min-height:60vh;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 15px 15px 0px rgba(28, 228, 235, 0.4);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0, 204, 255, 0.2);
+		transform: translatey(-30px);
+	}
+	100% {
+		box-shadow: 0 15px 15px 0px rgba(16, 223, 255, 0.4);
+		transform: translatey(0px);
+	}
+}
+
+
+.contactInfo {
+  position: relative;
+  top: 200px;
+}
+
+.typewriter span{
+  position: relative;
+  white-space: nowrap;
+}
+.typewriter span::before{
+  content: "Web Developer";
+  color: #ffffff;
+  animation: words 9s infinite;
+}
+.typewriter span::after{
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: #3d3e42;
+  border-left: 2px solid #1fd2cc;
+  right: -8px;
+  animation: cursor .8s infinite, typing 15s steps(20) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2px solid #3d3e42;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes words {
+  0%, 35%{
+    content: "Web Developer";
+  }
+  36%, 70%{
+    content: "Software Developer";
+  }
+  71%, 100%{
+    content: "Graphic Designer";
+  }
+}
+
+/* The typing effect */
+@keyframes typing {
+  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+    width: 0;
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+    width: calc(100% + 8px);
+  }
+}
+
+
+
+.container {  
+	width: 80%;
+  position: relative;
+  left: 600px;
+  top: -100px;
+	height: 80%;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar {
+	width: 300px;
+	height: 300px;
+	box-sizing: unset;
+	border-radius: 10%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(66, 189, 237, 0.6);
+	transform: translatey(0px);
+	animation: float 4s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+
+
+section#intro p{
+  color: #fff;
+  font-family: 'Montserrat';
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size:1.8rem;
+  line-height:2.6rem;
+  opacity:0;
+  transition: all .3s linear;
+  position: relative;
+  top:-50px;
+}
+section#intro h1{
+  line-height: 4rem;
+  color: #1fd2cc;
+}
+section#intro.visible p{
+  opacity:1;
+  top:20px;
+  font-weight: 400;
+  font-size: 3rem;
+}
+section#intro a{
+  border: 3px solid $gold;
+  border-radius: 7px;
+  color:$gold;
+  text-decoration:none;
+  padding:10px 20px;
+  display:inline-block;
+  margin-top:20px;
+  font-size:1.4rem;
+  transition: all .3s linear;
+  position: relative;
+  opacity:0;
+  bottom:-50px;
+}
+
+section#intro a:hover{
+  border: 3px solid white;
+  border-radius: 25px;
+  text-decoration:none;
+  padding:12px 22px;
+  box-shadow: 2px 0px 20px 0px rgba(31, 210, 204, 0.4);
+  display:inline-block;
+  margin-top:20px;
+  font-size:1.5rem;
+  transition: all .1s linear;
+  position: relative;
+  opacity:0;
+  bottom:-50px;
+}
+
+section#intro.visible a{
+  bottom:0;
+  opacity: 1;
+}
+section#intro span{
+  color: #1fd2cc;
+  font-family: 'Montserrat';
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size:3.5rem;
+  font-weight:600;
+}
+section#intro img{
+  max-width:300px;
+  opacity: 0;
+  transition: opacity 1s linear;
+}
+section#intro.visible img{
+  opacity: 1;
+}

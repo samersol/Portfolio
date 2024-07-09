@@ -1,0 +1,41 @@
+section#skills{
+  background-color: #31333B;
+  padding-bottom: 140px;
+}
+section#skills h2{
+  text-align: center;
+  font-size: 4rem;
+}
+.skills-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.skill-box{
+  opacity:0;
+  transition: all .6s linear;
+  padding: 40px;
+  border: 1px solid #1fd2ccb1;
+
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  left: -20px;
+  span{
+    display: block;
+  }
+}
+.skills-container.visible .skill-box{
+  opacity:1;
+  left:0;
+
+}
+@for $i from 1 through 20 {
+  .skill-box:nth-child(#{$i + 1}){transition-delay: #{$i  * .2s}};
+}
+
+.skill-box img{
+  display: inline-block;
+  margin-bottom:10px;
+  max-width:60px;
+}

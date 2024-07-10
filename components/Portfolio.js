@@ -44,6 +44,8 @@ export default function Portfolio() {
 
           </div>
           <div className="divButton"><a href="https://github.com/samersol/TechCart-EcommerceWebsite" target="_blank" rel="noreferrer" className="button">Source Code</a>
+	        <a href="https://tech-cart1.vercel.app/" target="_blank" rel="noreferrer" className="button">Show Website</a>
+
           </div>
 
 		</div>

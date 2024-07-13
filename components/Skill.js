@@ -13,7 +13,7 @@ export default function Skills() {
           <div className="skill-box"><img src="/img/python.png" alt=""/><span>Python</span></div>
           <div className="skill-box"><img src="/img/mongoDB.png" alt=""/><span>MongoDB</span></div>
           <div className="skill-box"><img src="/img/Typescript.png" alt=""/><span>TypeScript</span></div>
-          <div className="skill-box"><img src="/img/React.png" alt=""/><span>React</span></div>
+          <div className="skill-box"><img src="/img/react.png" alt=""/><span>React</span></div>
           <div className="skill-box"><img src="/img/nodejs.png" alt=""/><span>Node.js</span></div>
           <div className="skill-box"><img src="/img/vuejs.png" alt=""/><span>vue.js</span></div>
           <div className="skill-box"><img src="/img/expressjs.png" alt=""/><span>Express.js</span></div>

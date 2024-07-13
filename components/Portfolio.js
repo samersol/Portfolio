@@ -70,7 +70,7 @@ export default function Portfolio() {
           <p className="box">CSS</p>
 
           </div>
-          <div className="divButton"><a href="https://github.com/samersol/ImageRecognition" target="_blank" rel="noreferrer" className="button">Source Code</a>
+          <div className="divButton"><a href="https://github.com/samersol/FoodImageCaloriesRecognition" target="_blank" rel="noreferrer" className="button">Source Code</a>
           </div>
 
 		</div>

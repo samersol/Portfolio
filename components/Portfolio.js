@@ -71,6 +71,7 @@ export default function Portfolio() {
 
           </div>
           <div className="divButton"><a href="https://github.com/samersol/FoodImageCaloriesRecognition" target="_blank" rel="noreferrer" className="button">Source Code</a>
+	      <a href="https://drive.google.com/file/d/1RukS1ygG5GCwm0Ay_f9X92awylXrwONp/view?usp=sharing" target="_blank" rel="noreferrer" className="button">Website Video</a>
           </div>
 
 		</div>

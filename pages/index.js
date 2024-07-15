@@ -37,6 +37,7 @@ export default function Home() {
       <Experience />
       <Contact />
       <Footer />
+      <Analytics />
     </main>
   )
 }

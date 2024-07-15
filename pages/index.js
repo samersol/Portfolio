@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Analytics } from "@vercel/analytics/react"
 import Intro from "../components/Intro";
 import About from "../components/About";
 import Header from "../components/Header";

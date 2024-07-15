@@ -107,12 +107,12 @@ export default function Portfolio() {
   <div class="image">
 		<img class="image__img" src="/img/behance.jpg" alt="Bricks"/>
 		<div class="image__overlay image__overlay--blur">
-			<div class="image__title">Graphic Designer Portfolio</div>
+			<div class="image__title">Graphic Design Portfolio</div>
 			<p class="image__description">
-      My works along the past 4 years as a Graphic Designer Freelancer, (Brand Design, Prints, Social Media Campaigns, Logos)
-	      .</p>
+      My works along the past 4 years as a Graphic Design Freelancer, (Brand Design, Prints, Social Media Campaigns, Logos)
+	      </p>
       <h4 className="tech">Tech used:</h4>
-      <div className="divBox"><p className="box">Node.js</p>
+      <div className="divBox">
           <p className="box">Adobe Photoshop</p>
           <p className="box">Adobe illustrator</p>
           <p className="box">Adobe After Effects</p>

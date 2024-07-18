@@ -10,6 +10,7 @@ import Portfolio from "../components/Portfolio";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import { Helmet } from 'react-helmet';
 
 export default function Home() {
   
@@ -28,7 +29,13 @@ export default function Home() {
     });
   }, []);
   return (
+    
     <main>
+      {/* <Helmet>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>My Title</title>
+    </Helmet> */}
       <Header />
       <Intro />
       <About />

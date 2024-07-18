@@ -3,20 +3,35 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+
 }
 html{
     scroll-behavior: smooth;
+    
 }
 body{
     background-color: #3D3E42;
     font-family: 'Montserrat';
     font-weight: 500;
-    color:#fff;
+    @media (max-width: 768px) {
+        width: 1650px;
+
+    }
+    @media (max-width: 340px) {
+        width: 1300px;
+
+    }
+        color:#fff;
     overflow-x: hidden;
 }
 .center{
     max-width: 780px;
     margin: 0 auto;
+    @media (max-width: 768px) {
+        padding: 40px;
+
+    }
+    
 }
 img{
     max-width:100%;

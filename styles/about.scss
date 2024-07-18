@@ -8,6 +8,10 @@ section#about{
   font-weight: 200;
   text-align: justify;
   text-justify: inter-word;
+  @media (max-width: 600px) {
+		font-size: 1.2rem;
+    margin: 20px;
+	}
   }
 
 .about-container{

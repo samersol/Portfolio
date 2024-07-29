@@ -18,7 +18,7 @@ export default function Portfolio() {
         
 
           </div>
-          <div className="divButton"><a href="https://github.com/samersol/ImageRecognition" target="_blank" rel="noreferrer" className="button">Source Code</a>
+          <div className="divButton"><a href="https://github.com/samersol/TeachingWebsite" target="_blank" rel="noreferrer" className="button">Source Code</a>
           <a href="https://kunterbuntwebsite-samersols-projects.vercel.app/" target="_blank" rel="noreferrer" className="button">Show Website</a>
           </div>
           
